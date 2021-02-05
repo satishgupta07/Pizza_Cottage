@@ -25,3 +25,18 @@ nav li a:hover {
 section.hero {
     background: $secondary;
 } 
+
+.size {
+    background: $secondary;
+}
+
+.add-to-cart {
+    border: 2px solid $primary;
+    color: $primary;
+    transition: $smooth;
+    &:hover{
+        background: $primary;
+        border-color: $pure;
+        color: $pure;
+    }
+}
