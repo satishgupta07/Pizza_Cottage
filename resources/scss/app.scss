@@ -1,5 +1,23 @@
-$primary: red;
+@import './variables';
 
 body {
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: $dark;
+}
+
+nav li:last-child a {
     background: $primary;
+}
+
+nav li:last-child a:hover {
+    background: $primary-hover;
+}
+
+nav li a {
+    transition: $smooth;
+}
+
+nav li a:hover {
+    color: $primary;
 }
