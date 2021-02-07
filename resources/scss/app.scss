@@ -51,4 +51,7 @@ section.hero {
 
 section.cart {
     background: $secondary;
+    .amount {
+        color: $primary;
+    }
 }
