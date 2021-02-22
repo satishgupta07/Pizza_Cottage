@@ -80,7 +80,11 @@ function authController() {
 
             console.log(req.body)
 
-         }
+        },
+        logout(req, res) {
+           req.logout()
+           return res.redirect('/login')  
+        }
     }
 }
 
